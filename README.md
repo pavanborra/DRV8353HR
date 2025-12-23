@@ -13,14 +13,14 @@ DRV8353HRTAT version is selected for development. this version does not have int
 This project/design is developed to test 1 x PWM mode of DRV8353 SMART DRIVER SERIES. This Design expects hall inputs (from motor) for state control.
 
 -- Features of Design --
-One PWM signal for motor control from host controller.
-Direction reversal through one GPIO state toggling.
-BRAKING through one GPIO state toggling.
-BUS Voltage and BUS current sensing.
-All Phase Current sensing.
+# One PWM signal for motor control from host controller.
+# Direction reversal through one GPIO state toggling.
+# BRAKING through one GPIO state toggling.
+# BUS Voltage and BUS current sensing.
+# All Phase Current sensing.
 
 
-I have not incorporated Phase voltage sensing. you can download and re-use (edit) the design for your needs ( sensorless motors or motors with encoders/resolvers ). 
+I have not incorporated Phase voltage sensing. you can download and re-use (edit) the design for your needs ( sensorless motors or motors with encoders/resolvers or additional fault protection/identifications). 
 
 DRV8353 series simplifies design and control, helps us focus on BIG Picture. 
 few DRV8353 variants has integrated BUCK conveter that can simplify drive design further. i have decoupled buck function (to derive 12v) for reasons. 
