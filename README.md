@@ -14,10 +14,10 @@ This project/design is developed to test 1 x PWM mode of DRV8353 SMART DRIVER SE
 
 -- Features of Design --
 **One PWM signal for motor control from host controller.**
-# Direction reversal through one GPIO state toggling.
-# BRAKING through one GPIO state toggling.
-# BUS Voltage and BUS current sensing.
-# All Phase Current sensing.
+**Direction reversal through one GPIO state toggling.**
+**BRAKING through one GPIO state toggling.**
+**BUS Voltage and BUS current sensing.**
+**All Phase Current sensing.**
 
 
 I have not incorporated Phase voltage sensing. you can download and re-use (edit) the design for your needs ( sensorless motors or motors with encoders/resolvers or additional fault protection/identifications). 
