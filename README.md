@@ -13,7 +13,7 @@ DRV8353HRTAT version is selected for development. this version does not have int
 This project/design is developed to test 1 x PWM mode of DRV8353 SMART DRIVER SERIES. This Design expects hall inputs (from motor) for state control.
 
 -- Features of Design --
-# One PWM signal for motor control from host controller.
+**One PWM signal for motor control from host controller.**
 # Direction reversal through one GPIO state toggling.
 # BRAKING through one GPIO state toggling.
 # BUS Voltage and BUS current sensing.
